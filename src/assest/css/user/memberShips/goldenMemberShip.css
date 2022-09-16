@@ -1,0 +1,79 @@
+.gold{
+    width: 100%;
+    border-radius: 30px;
+    padding: 0.5rem;
+    padding-bottom: 1.5rem;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    position: relative;
+    background: linear-gradient(180deg, #CCB168 0%, rgba(204, 177, 104, 0.873265) 80.39%, rgba(204, 177, 104, 0) 100%);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  @media (min-width: 768px) {
+    .gold{
+        padding: 1.5rem;
+        width: 350px;
+    }
+  }
+  
+  .gold .image{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+  }
+  
+  .gold .image img{
+    width: 65px;
+    height: 75px;
+  }
+  
+  .gold .image .text{
+    background-color: #D96750;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .gold .box{
+    margin-bottom: 3rem;
+  }
+  
+  .gold .box .part{
+    margin-bottom: 0.75rem;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  .gold .join{
+    display: flex;
+    justify-content: center;
+  }
+  
+  .gold .join button{
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    width: 248px;
+    height: 50px;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  
+  .gold .memebr-name{
+    position: absolute;
+    font-size: 25px;
+    font-weight: 700;
+    height: 55px;
+    width: 207px;
+    top: -40px;
+    background-color: #FFF2F2;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }

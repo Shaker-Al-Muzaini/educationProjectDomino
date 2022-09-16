@@ -1,0 +1,39 @@
+.player-box .player-box-title{
+    font-size: 24px;
+    font-weight: 500;
+    color: #000000;
+}
+@media (min-width: 768px) {
+    .player-box .player-box-title{
+        font-size: 28px;
+    }
+}
+
+.player-box .player-box-content{
+    position: relative;
+    margin-top: 80px;
+    width: fit-content;
+}
+
+.player-box .player-box-image{
+    width: 611px;
+    height: auto;
+    border-radius: 8px;
+    filter: grayscale(50%);
+}
+
+.player-box .player-box-icon{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    background-color: #7AB9E3;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 20px;
+}

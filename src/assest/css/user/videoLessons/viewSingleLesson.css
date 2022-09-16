@@ -1,0 +1,194 @@
+.single-lessons{
+    margin-top: 130px;
+  }
+  
+  .single-lessons .video-lessons-wrapper{
+    display: flex;
+    column-gap: 4rem;
+    row-gap: 1.75rem;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .single-lessons .video-lessons-wrapper{
+        flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .single-lessons .category-wrap{
+        width: 35%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .single-lessons .category-wrap{
+        width: 25%;
+    }
+  }
+  
+  .single-lessons .video-lessons-content{
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .single-lessons .video-lessons-content{
+        width: 70%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .single-lessons .video-lessons-content{
+        width: 70%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .single-lessons .video-lessons-content{
+        width: 85%;
+    }
+  }
+  
+  .single-lessons .video-title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .single-lessons .video-title{
+        margin-bottom: 3rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .single-lessons .video-title{
+        font-size: 26px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .single-lessons .video-title{
+        font-size: 30px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .single-lessons .video-title{
+      padding-right: 40px;
+    }
+  }
+  
+  .single-lessons .box{
+    margin-bottom: 5rem
+  }
+  
+  .single-lessons .box-title{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .single-lessons .box-title{
+        font-size: 30px;
+    }
+  }
+  
+  .single-lessons .watchAll{
+    font-size: 18px;
+    color:#18A0FB;
+    text-align: left;
+    margin-bottom: 0.75rem;
+    display: block;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .single-lessons .boxes-wrapper{
+    display: grid;
+    gap: 2.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .single-lessons .boxes-wrapper{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .single-lessons .boxes-wrapper{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .single-lessons .boxes-wrapper{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .single-lessons .boxes-wrapper{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .grid-lesson .heading{
+    font-weight: 500;
+    color: #000000;
+    font-size: 24px;
+    margin-bottom: 8px;
+  }
+  @media (min-width: 768px) {
+    .grid-lesson .heading{
+        font-size: 28px;
+        padding-right: 48px;
+    }
+  }
+  .grid-lesson .flex-boxes{
+    display: flex;
+    gap: 40px;
+    flex-direction: column;
+  }
+  @media (min-width: 1280px) {
+    .grid-lesson .flex-boxes{
+        flex-direction: row;
+    }
+  }
+
+  .grid-lesson .flex-boxes .description-lesson{
+    font-size: 18px;
+    font-weight: 400;
+    color: #000000;
+    margin: 20px 0;
+  }
+
+  @media (min-width: 1280px) {
+    .grid-lesson .flex-boxes{
+        font-size: 20px;
+    }
+  }
+
+  .grid-lesson .flex-boxes .watch-link{
+    background-color: #18A0FB;
+    width: 250px;
+    max-width: 100%;
+    height: 35px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+@media (min-width: 1280px) {
+  .grid-lesson .flex-boxes .watch-link{
+    margin-top: 120px;
+  }
+}

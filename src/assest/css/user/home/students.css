@@ -1,0 +1,68 @@
+.students-wrapper{
+    padding: 50px 8px;
+    overflow: hidden;
+}
+.students-wrapper .heading-three{
+    text-align: center;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+@media (min-width: 640px) {
+    .students-wrapper .heading-three {
+        font-size: 30px;
+    }
+}
+@media (min-width:1024px)
+{
+  .students-wrapper .heading-three{
+    font-size: 35px;
+  }
+}
+.students-wrapper .description{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: .8;
+    margin-bottom: 48px !important;
+}
+@media (min-width:768px)
+{
+  .students-wrapper .description{
+      margin-bottom: 80px;
+  }
+}
+@media (min-width:1024px)
+{
+  .students-wrapper .description{
+    font-size: 18px;
+  }
+}
+.students-wrapper .students-wraaper-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 16px;
+}
+.students-wrapper .student-box .image{
+    width: 340px;
+    height: 248px;
+    margin-bottom: 16px;
+}
+@media (min-width:1024px)
+{
+  .students-wrapper .student-box .image{
+    width: 381px;
+  }
+}
+.students-wrapper .student-box .student-type{
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+@media (min-width:1024px)
+{
+  .students-wrapper .student-box .student-type{
+    font-size: 28px;
+  }
+}

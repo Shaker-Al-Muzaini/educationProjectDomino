@@ -1,0 +1,39 @@
+.academy-wrapper{
+    padding: 40px 0;
+}
+.academy-wrapper .heading-3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+@media (min-width: 768px) {
+    .academy-wrapper .heading-3 {
+        font-size: 36px;
+    }
+}
+@media (min-width: 1024px) {
+    .academy-wrapper .heading-3 {
+        font-size: 42px;
+    }
+}
+.academy-wrapper .description{
+    font-size: 20px;
+    font-weight: 400;
+    padding: 0 8px;
+}
+@media (min-width: 640px) {
+    .academy-wrapper .description {
+        font-size: 24px;
+    }
+}
+@media (min-width: 768px) {
+    .academy-wrapper .description{
+        font-size: 28px;
+    }
+}
+@media (min-width: 1024px) {
+    .academy-wrapper .description {
+        font-size: 32px;
+        line-height: 80px;
+    }
+}

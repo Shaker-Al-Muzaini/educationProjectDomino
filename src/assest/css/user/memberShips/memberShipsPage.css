@@ -1,0 +1,94 @@
+.subscription{
+    padding-top: 120px;
+    padding-bottom: 60px;
+  }
+  
+  .subscription .subscription-wrapper{
+    padding-left: 2rem;
+      padding-right: 2rem;
+  }
+  
+  .subscription .title{
+    margin-bottom: 1.5rem;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  @media (min-width: 768px) {
+    .subscription .title{
+        font-size: 28px;
+        margin-bottom: 4rem
+    }
+  }
+  @media (min-width: 1024px) {
+    .subscription .title{
+        font-size: 32px;
+    }
+  }
+  
+  .subscription .type{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 6rem;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    border:1px solid #C3E1E8;
+    background-color: #FFFFFF;
+    font-size: 22px;
+    font-weight: 700;
+    height: 80px;
+  }
+  @media (min-width: 768px) {
+    .subscription .type{
+        font-size: 25px;
+    }
+  }
+  
+  .subscription .not-active{
+    background-color: #FFFFFF;
+  }
+  
+  .subscription .active{
+    background-color: #18A0FB;
+    color: white;
+  }
+  
+  .subscription .content{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    row-gap: 6rem;
+    column-gap: 1.5rem;
+  }
+  
+  .subscription .content .memebrship{
+    cursor: pointer;
+  }
+  
+  .subscription .membership-text{
+    margin-top: 1.5rem;
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+  }
+  
+  .subscription .gold-member{
+    padding-bottom: 60px;
+    order: 3;
+  }
+  @media (min-width: 1280px) {
+    .subscription .gold-member{
+        order: 2;
+    }
+  }
+  
+  .subscription .silver-member{
+    order: 2;
+  }
+  @media (min-width: 1280px) {
+    .subscription .silver-member{
+        order: 3;
+    }
+  }
+  

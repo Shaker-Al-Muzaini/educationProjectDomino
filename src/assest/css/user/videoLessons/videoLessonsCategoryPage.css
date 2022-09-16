@@ -1,0 +1,132 @@
+.video-lessons-category{
+    margin-top: 130px;
+  }
+  
+  .video-lessons-category .video-lessons-wrapper{
+    display: flex;
+    column-gap: 7rem;
+    row-gap: 1.75rem;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .video-lessons-category .video-lessons-wrapper{
+        flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .video-lessons-category .category-wrap{
+        width: 35%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .video-lessons-category .category-wrap{
+        width: 25%;
+    }
+  }
+  
+  .video-lessons-category .video-lessons-content{
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .video-lessons-category .video-lessons-content{
+        width: 60%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .video-lessons-category .video-lessons-content{
+        width: 70%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .video-lessons-category .video-lessons-content{
+        width: 78%;
+    }
+  }
+  
+  .video-lessons-category .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .video-lessons-category .title{
+        margin-bottom: 3rem/* 48px */;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .video-lessons-category .title{
+        font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .video-lessons-category .title{
+        font-size: 28px;
+    }
+  }
+  
+  .video-lessons-category .box{
+    margin-bottom: 5rem
+  }
+  
+  .video-lessons-category .box-title{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .video-lessons-category .box-title{
+        font-size: 30px;
+    }
+  }
+  
+  .video-lessons-category .watchAll{
+    font-size: 18px;
+    color:#18A0FB;
+    text-align: left;
+    margin-bottom: 0.75rem;
+    display: block;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .video-lessons-category .boxes-wrapper{
+    display: grid;
+    gap: 2.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .video-lessons-category .boxes-wrapper{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .video-lessons-category .boxes-wrapper{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .video-lessons-category .boxes-wrapper{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .video-lessons-category .boxes-wrapper{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }

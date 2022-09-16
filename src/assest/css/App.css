@@ -1,0 +1,67 @@
+*{
+  margin: 0;
+  padding: 0;  
+  box-sizing: border-box; 
+  font-family: 'Tajawal', sans-serif;
+}
+body{
+  direction: rtl;
+
+}
+html{
+  scroll-behavior: smooth;
+}
+ul{
+  list-style:none;
+  padding:0
+}
+a{
+  text-decoration: none;
+}
+button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+.container{
+  padding-left:8px;
+  padding-right:8px;
+  margin-left:auto;
+  margin-right:auto;
+  width: 100%;
+}
+/* small */ 
+@media (min-width:640px)
+{
+  .container{
+      max-width: 100%;
+  }
+}
+@media (min-width:768px)
+{
+  .container{
+      max-width: 100%;
+  }
+}
+/* meduim */ 
+@media (min-width:1024px)
+{
+  .container{
+      max-width: 100%;
+  }
+}
+/* large */
+@media (min-width:1280px)
+{
+  .container{
+      max-width: 100%;
+      padding-left: 24px;
+      padding-right: 24px;
+  }
+}
+@media (min-width:1536px)
+{
+  .container{
+      max-width: 100%;
+  }
+}

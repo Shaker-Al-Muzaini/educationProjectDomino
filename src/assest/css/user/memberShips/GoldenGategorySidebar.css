@@ -1,0 +1,53 @@
+.goldenCategory{
+    margin-bottom: 2rem;
+  }
+  
+  .goldenCategory .goldenCategory-title{
+    padding-bottom: 0.5rem;
+    font-size: 22px;
+    font-weight: 700;
+  }
+  @media (min-width: 640px) {
+    .goldenCategory .goldenCategory-title{
+        font-size: 24px;
+    }
+  }
+  @media (min-width: 768px) {
+    .goldenCategory .goldenCategory-title{
+        font-size: 26px;
+    }
+  }
+  
+  .goldenCategory .goldenCategory-boxes{
+    width:100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    flex-direction: row;
+    display: flex;
+    gap: 0.5rem;
+  }
+  @media (min-width: 1280px) {
+    .goldenCategory .goldenCategory-boxes{
+        padding-top: 30px;
+        padding-bottom: 30px;
+        flex-direction: column;
+    }
+  }
+  
+  .goldenCategory .goldenCategory-box{
+    transition-duration: 300ms;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 20px;
+    display: block;
+    padding: .25rem 0.5rem;
+  }
+  
+  .goldenCategory .goldenCategory-box:hover{
+    background-color: #99DAE9;
+  }
+  @media (min-width: 768px) {
+    .goldenCategory .goldenCategory-box{
+        width: 100%;
+    }
+  }  

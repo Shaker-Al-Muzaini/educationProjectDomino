@@ -1,0 +1,74 @@
+.single-lesson{
+    border-radius: 6px;
+    width: 385px;
+    max-width: 100%;
+    padding: 10px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.single-lesson .single-lesson-image{
+    height: 221px;
+    border-radius: 8px;
+    width: 100%;
+}
+
+.single-lesson .single-lesson-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    column-gap: 12px;
+}
+
+.single-lesson .single-lesson-title{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+@media (min-width:768px)
+{
+    .single-lesson .single-lesson-title{
+        font-size: 18px;
+    }
+}
+
+.single-lesson .single-lesson-teacher{
+    font-size: 20px;
+    font-weight: 500;
+}
+@media (min-width:768px)
+{
+    .single-lesson .single-lesson-teacher{
+        font-size: 20px;
+    }
+}
+
+.single-lesson .exersice{
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 1px;
+    padding-right: 1px;
+    border-radius: 6px;
+}
+
+.single-lesson .train{
+    background-color: #D96750;
+}
+
+.single-lesson .lesson{
+    background-color: #99DAE9;
+}
+
+.single-lesson .lesson-time{
+    font-size: 20px;
+    font-weight: 500;
+    color: #000000;
+    margin-top: 8px;
+}
+
+@media (min-width:768px)
+{
+    .single-lesson .lesson-time{
+        font-size: 20px;
+    }
+}

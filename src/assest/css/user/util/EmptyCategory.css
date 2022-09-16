@@ -1,0 +1,23 @@
+.empty{
+    margin-top: 7rem;
+    padding-bottom: 120px;
+    text-align: center;
+  }
+  
+  .empty .image{
+    width: 295px;
+    height: 285px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .empty .text{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 1.5rem;
+  }
+  
+  .empty .link{
+    cursor: pointer;
+    color: #18A0FB;
+  }

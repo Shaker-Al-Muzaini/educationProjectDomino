@@ -1,0 +1,101 @@
+.services{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  .services .title{
+    font-weight: 700;
+    font-size: 30px; 
+  }
+  
+  @media (min-width:1024px)
+  {
+    .services .title{
+          font-size:45px;
+      }
+  }
+  
+  @media (min-width:768px)
+  {
+    .services .title{
+          font-size:40px;
+      }
+  }
+  
+  .services .content{
+    display: grid;
+    margin-top: 40px;
+    row-gap: 40px;
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+  }
+  
+  @media (min-width:768px)
+  {
+    .services .content{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+      }
+  }
+  .services .box{
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .services .lessons-link{
+    text-align: left;
+    display: block;
+    padding-left: 100px;
+    padding-left: 100px;
+    margin-bottom: 0.75rem;
+    color: #18A0FB;
+  }
+  
+  .services .text{
+    display: flex;
+    align-items: center;
+    column-gap: 0.75rem
+  }
+  
+  .services .image{
+    width: 54px;
+    height: 54px;
+    border-radius: 9999px;
+  }
+  
+  .services .image img{
+    width: 48px;
+    height: 46px;
+    border-radius: 9999px;
+  }
+  
+  .services .box-title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000000;
+  }
+  
+  @media (min-width:640px)
+  {
+    .services .box-title{
+        font-size: 24px;
+      }
+  }
+  
+  @media (min-width:1024px)
+  {
+    .services .box-title{
+        font-size: 28px;
+      }
+  }
+  
+  .services .box-descirption{
+    font-size: 18px;
+    color: #000000cc;
+    line-height: 30px;
+  }
+  
+  @media (min-width:768px)
+  {
+    .services .box-descirption{
+        font-size: 20px;
+      }
+  }  

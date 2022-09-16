@@ -1,0 +1,132 @@
+.groups{
+    margin-top: 130px;
+  }
+  
+  .groups .groups-wrapper{
+    display: flex;
+    column-gap: 7rem;
+    row-gap: 1.75rem;
+    flex-direction: column;
+  }
+  
+  @media (min-width: 768px) {
+    .groups .groups-wrapper{
+        flex-direction: row;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .groups .category-wrap{
+        width: 35%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .groups .category-wrap{
+        width: 25%;
+    }
+  }
+  
+  .groups .groups-content{
+    width: 100%;
+  }
+  
+  @media (min-width: 768px) {
+    .groups .groups-content{
+        width: 60%;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .groups .groups-content{
+        width: 70%;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .groups .groups-content{
+        width: 78%;
+    }
+  }
+  
+  .groups .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+  }
+  
+  @media (min-width: 768px) {
+    .groups .title{
+        margin-bottom: 3rem/* 48px */;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .groups .title{
+        font-size: 32px;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .groups .title{
+        font-size: 28px;
+    }
+  }
+  
+  .groups .box{
+    margin-bottom: 5rem
+  }
+  
+  .groups .box-title{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 1.75rem;
+  }
+  
+  @media (min-width: 1024px) {
+    .groups .box-title{
+        font-size: 30px;
+    }
+  }
+  
+  .groups .watchAll{
+    font-size: 18px;
+    color:#18A0FB;
+    text-align: left;
+    margin-bottom: 0.75rem;
+    display: block;
+    width: 100%;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  .groups .boxes-wrapper{
+    display: grid;
+    gap: 2.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .groups .boxes-wrapper{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .groups .boxes-wrapper{
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .groups .boxes-wrapper{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .groups .boxes-wrapper{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }

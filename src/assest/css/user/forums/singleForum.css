@@ -1,0 +1,138 @@
+.singleForum{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.singleForum .singleForum-wrapper{
+    display: flex;
+    column-gap: 2rem;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .singleForum .singleForum-wrapper{
+        flex-direction: row;
+    }
+}
+@media (min-width: 1280px) {
+    .singleForum .singleForum-wrapper{
+        column-gap:  6rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .singleForum .categ-wrapper{
+        width: 35%;
+    }
+}
+@media (min-width: 1024px) {
+    .singleForum .categ-wrapper{
+        width: 25%;
+    }
+}
+@media (min-width: 1280px) {
+    .singleForum .categ-wrapper{
+        width: 15%;
+    }
+}
+
+.singleForum .content{
+    width: 100%;
+    display: flex;
+    column-gap: 2rem;
+    flex-direction: column;
+}
+@media (min-width: 768px) {
+    .singleForum .content{
+        width: 80%;
+    }
+}
+@media (min-width: 1024px) {
+    .singleForum .content{
+        flex-direction: row;
+    }
+}
+@media (min-width: 1280px) {
+    .singleForum .content{
+        column-gap: 6rem;
+    }
+}
+
+.singleForum .content-wrapper{
+    order: 2;
+}
+@media (min-width: 1024px) {
+    .singleForum .content-wrapper{
+        width: 70%;
+        order: 1;
+    }
+}
+
+.singleForum .content-wrapper .title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+@media (min-width: 768px) {
+    .singleForum .content-wrapper .title{
+        font-size: 28px;
+    }
+}
+@media (min-width: 1024px) {
+    .singleForum .content-wrapper .title{
+        font-size: 32px;
+    }
+}
+
+.singleForum .box-content{
+    margin-bottom: 3rem;
+}
+
+.singleForum .forum-title{
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 32px;
+}
+@media (min-width: 768px) {
+    .singleForum .forum-title{
+        font-size: 28px;
+    }
+}
+
+.singleForum .forum-description{
+    font-size: 18px;
+    line-height: 26px;
+}
+@media (min-width: 640px) {
+    .singleForum .forum-description{
+        font-size: 20px;
+    }
+}
+@media (min-width: 768px) {
+    .singleForum .forum-description{
+        font-size: 22px;
+    }
+}
+
+.singleForum .wrapper-forum{
+    width: 80%;
+    order: 1;
+    margin-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media (min-width: 640px) {
+    .singleForum .wrapper-forum{
+        width: 70%;
+    }
+}
+@media (min-width: 768px) {
+    .singleForum .wrapper-forum{
+        width: fit-content;
+        margin-right: 0;
+    }
+}
+@media (min-width: 1024px) {
+    .singleForum .wrapper-forum{
+        order: 2;
+    }
+}

@@ -1,0 +1,94 @@
+.team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .team .team-title{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 2rem;
+  }
+  @media (min-width: 640px) {
+    .team .team-title{
+        font-size: 30px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .team .team-title{
+        font-size: 35px;
+    }
+  }
+  .team .swiberslide{
+    height: 300px !important;
+    background-color: #F2F6F9;
+    padding: 16px;
+  }
+  .team .swiper-button-next,
+  .team .swiper-button-prev{
+    background-color: black;
+    width: 35px !important;
+    height: 35px !important;
+    border-radius: 50%;
+  }
+  .team .swiper-button-next{
+  left: 0!important;
+  }
+  .team .swiper-button-prev{
+    right: 0!important;
+  }
+  
+  .team .swiper-button-next::after,
+  .team .swiper-button-prev::after{
+    color: white;
+    font-size: 18px !important;
+  }
+  .team .image-wrapper{
+    text-align: center;
+  }
+  .team .team-image{
+    width: 108px;
+    height: 105px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1.25rem;
+  }
+  
+  .team .title{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 0.75rem;
+    padding-right: 1.5rem;
+  }
+  
+  @media (min-width: 640px) {
+    .team .title{
+        font-size: 25px;
+    }
+  }
+  @media (min-width: 768px) {
+    .team .title{
+        font-size: 22px;
+    }
+  }
+  @media (min-width: 1280px) {
+    .team .title{
+        font-size: 25px;
+    }
+  }
+  
+  .team .description{
+    font-size: 22px;
+    font-weight: 400;
+    padding-right: 2rem;
+  }
+  @media (min-width: 768px) {
+    .team .description{
+        font-size: 20px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .team .description{
+        font-size: 22px;
+    }
+  }
+  

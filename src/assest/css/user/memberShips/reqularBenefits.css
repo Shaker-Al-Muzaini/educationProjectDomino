@@ -1,0 +1,74 @@
+@media (min-width: 768px) {
+    .reqular-benefits{
+        padding-left: 7rem;
+        padding-right: 7rem;
+    }
+  }
+  
+  .reqular-benefits .reqular-benefits-wrapper{
+    max-width: 100%;
+    width: 976px;
+    border-radius: 12px;
+    position: relative;
+    padding: 4px;
+    padding-bottom: 10px;
+    border-radius: 12px;
+    background: rgba(24, 160, 251, 0.09);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  @media (min-width: 1024px) {
+    .reqular-benefits .reqular-benefits-wrapper{
+        width: 976px;
+    }
+  }
+  
+  .reqular-benefits .reqular-benefits-title{
+    font-weight: 700;
+    font-size: 24px;
+    color:#242424;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    margin-bottom: 3rem;
+    padding-top: 4rem;
+  }
+  
+  .reqular-benefits .reqular-benefits-content{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .reqular-benefits .reqular-benefits-content .check{
+    color:#009045
+  }
+  
+  .reqular-benefits .reqular-benefits-box{
+    font-size: 15px;
+    font-weight: 500;
+  }
+  
+  .reqular-benefits .image{
+    position: absolute;
+    display: hidden;
+    border-radius: 50%;
+    width: 180px;
+    height: 180px;
+    top: -130px;
+    right: -68px;
+    align-items: center;
+    justify-content: center;
+    background: rgba(24, 160, 251, 0.09);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+  @media (min-width: 768px) {
+    .reqular-benefits .image{
+        display: flex;
+    }
+  }
+  
+  .reqular-benefits .image .member-image{
+    width: 150px;
+    height: 150px;
+  }
+  

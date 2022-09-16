@@ -1,0 +1,105 @@
+.psych{
+    margin-top: 130px;
+  }
+  .psych .psych-wrapper{
+    display: flex;
+    column-gap: 7rem;
+    row-gap: 1.75rem;
+    flex-direction: column;
+  }
+  @media (min-width: 768px) {
+    .psych .psych-wrapper{
+        flex-direction: row;
+    }
+  }
+  @media (min-width: 768px) {
+    .psych .menu-wrapper{
+        width: 35%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .psych .menu-wrapper{
+        width: 25%;
+    }
+  }
+  @media (min-width: 1280px) {
+    .psych .menu-wrapper{
+        width: 15%;
+    }
+  }
+  
+  .psych .content{
+    width: 100%;
+  }
+  @media (min-width: 1280px) {
+    .psych .content{
+        width: 78%;
+    }
+  }
+  @media (min-width: 1024px) {
+    .psych .content{
+        width: 70%;
+    }
+  }
+  @media (min-width: 768px) {
+    .psych .content{
+        width: 60%;
+    }
+  }
+  
+  .psych .title{
+    font-size: 24px;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+  }
+  @media (min-width: 768px) {
+    .psych .title{
+        font-size: 28px;
+        margin-bottom: 3rem;
+    }
+  }
+  @media (min-width: 1024px) {
+    .psych .title{
+        font-size: 32px;
+    }
+  }
+  
+  .psych .image{
+    margin-bottom: 2.5rem
+  }
+  
+  .psych .image img{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .psych .box{
+    margin-bottom: 1.5rem
+  }
+  
+  .psych .box-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    letter-spacing: -1.5%;
+    margin-bottom: 0.75rem;
+  }
+
+  @media (min-width: 768px) {
+    .psych .box-title{
+        font-size: 22px;
+    }
+  }
+  
+  .psych .box-description{
+    font-size: 16px;
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: -1.5%;
+  }  
+
+  @media (min-width: 768px) {
+    .psych .box-description{
+        font-size: 18px;
+    }
+  }
